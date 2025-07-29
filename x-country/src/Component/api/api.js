@@ -1,4 +1,4 @@
 
-const Api = "https://restcountries.com/v3.1/all"
+const Api = "https://xcountries-backend.azurewebsites.net/all"
 
 export default Api;

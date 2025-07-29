@@ -14,7 +14,7 @@ const Card = () => {
             console.log(response.data);
             setCountry(response.data)
         }catch(e){
-            console.log("error accured",e)
+            console.error("Error fetching data:",e)
         }
        }
 
